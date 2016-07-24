@@ -1,0 +1,14 @@
+{
+    "require": {
+        "phroute/phroute": "^2.1",
+        "robmorgan/phinx": "^0.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phroute\\": "vendor/phroute/phroute/src/Phroute/",
+            "Web\\": "app/library/Web",
+            "Toplist\\": "app/library/Toplist",
+            "DataAccess\\": "app/library/DataAccess"
+        }
+    }
+}
